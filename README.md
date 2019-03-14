@@ -39,7 +39,7 @@ foo | pipebuffer --size=128m | bar | pipebuffer --size=64m | splat | pipebuffer 
 curl https://sh.rustup.rs -sSf | sh
 
 // Clone the repo
-git clone https://github.com/tfenne/pipebuffer.git
+git clone https://github.com/jb-alvarado/pipebuffer.git
 
 // Build and run the tests
 pushd pipebuffer && (cargo test; cargo build --release); popd
