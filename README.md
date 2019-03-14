@@ -33,10 +33,9 @@ foo | pipebuffer --size=128m | bar | pipebuffer --size=64m | splat | pipebuffer 
 
 ## Building
 
-`pipebuffer` is written in [Rust](https://www.rust-lang.org/) and currently requires Rust 1.7 (beta) or greater.  You'll need Rust installed.  You can [download here](https://www.rust-lang.org/downloads.html), or run the first command below:
+`pipebuffer` is written in [Rust](https://www.rust-lang.org/) and works from Rust 1.7 or greater, current Rust is 1.33.  You'll need Rust installed.  You can [download here](https://www.rust-lang.org/downloads.html), or run the first command below:
 
 ```bash
-// Optionally install Rust: if 1.7 is stable, which it should be after ~3rd March 2016, omit '--channel=beta'
 curl -sSf https://static.rust-lang.org/rustup.sh | sh -s -- --channel=beta
 
 // Clone the repo
